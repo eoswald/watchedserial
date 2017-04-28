@@ -1,6 +1,8 @@
-============
+=============
 watchedserial
-============
+=============
+
+|build-status| |pypi|
 
 Installation
 ============
@@ -8,6 +10,7 @@ Installation
 .. code-block:: bash
 
         $ pip install watchedserial
+
 
 Description
 ===========
@@ -53,4 +56,12 @@ functions should be non-blocking (similar to an ISR).
 	with MyWatchedReaderThread(ser, MyPacket) as protocol:
 	    while True:
 		time.sleep(1)
+
+
+
+.. |build-status| image:: https://travis-ci.org/eoswald/watchedserial.svg?branch=master
+
+.. |pypi| image:: https://img.shields.io/pypi/v/watchedserial.svg?style=flat-square&label=latest%20stable%20version
+    :target: https://pypi.python.org/pypi/watchedserial
+    :alt: Latest version released on PyPi
 

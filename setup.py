@@ -9,7 +9,7 @@ def long_description():
 
 setup(
         name='watchedserial',
-        version='1.0.0',
+        version='1.0.1',
         description=('Module for handling pySerial Serial objects connecting '
             'and disconnecting'),
         long_description=long_description(),
